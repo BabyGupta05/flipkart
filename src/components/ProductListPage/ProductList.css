@@ -1,0 +1,10 @@
+.product-list-page {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
